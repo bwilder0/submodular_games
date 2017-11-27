@@ -24,6 +24,6 @@ Included is code for the core EQUATOR algorithm, domain-specific code for networ
 # Setup
 The only setup needed is to compile budget_cython_fast.pyx (for the budget allocation domain). Assuming that Cython is available, run
 
-'''
+```
 python setup_budget.py build_ext --inplace
-'''
+```
