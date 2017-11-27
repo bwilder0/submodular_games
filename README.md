@@ -15,7 +15,7 @@ Bryan Wilder. Equilibrium computation and robust optimization in zero sum games 
 Included is code for the core EQUATOR algorithm, domain-specific code for network security games and robust budget allocation, and code for the double oracle algorithm. 
 
 # Dependencies
-* Gurobi, for solving LPs in the budget allocation domain
+* Gurobi, for solving LPs in the budget allocation domain, LP for double oracle, and MILPs for oracles in NSG domain.
 * Networkx, for general graph functions
 * igraph, for fast shortest paths in the NSG domain
 * Cython, for fast implementation of gradient computation in budget allocation domain
